@@ -4,13 +4,13 @@ class Solution:
         sorted_nums2 = nums2.sort()
         i, j = 0, 0
         result = set()
-        while i < len(nums1) and j < len(nums2):
-            if nums1[i] < nums2[j]:
+        while i < len(sorted_nums1) and j < len(sorted_nums2):
+            if sorted_nums1[i] < sorted_nums2[j]:
                 i += 1
-            elif nums1[i] > nums2[j]:
+            elif sorted_nums1[i] > sorted_nums2[j]:
                 j += 1
             else:
-                result.add(nums1[i])
+                result.add(sorted_nums1[i])
                 i += 1
                 j += 1
         return list(result)
