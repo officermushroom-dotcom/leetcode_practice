@@ -1,0 +1,7 @@
+step1
+特に困ることなく解くことが出来た
+時間計算量O(n)、空間計算量O(1)
+
+step2
+counterをあまり使ったことがなかったのでcounterで練習
+counterで作ったhashmapの名前をdictと同じkey_to_valueでよいのかがわからない
