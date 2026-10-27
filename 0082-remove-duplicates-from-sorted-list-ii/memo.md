@@ -1,0 +1,12 @@
+step1
+ダミーノードを使うんだろうなということはわかったが実装できず。claudeの回答を参考にした。コードが全く整っていないのでstep2で整える。
+
+step2
+1つ目のコード: 少し整えたが2重whileの解消の仕方を思いつかなった。
+2つ目のコード: https://github.com/KaoKao1233/LeetCodeArai60/pull/4/changes のコードを参考にした。2重whileではあるが意味が一番取りやすいかなと思った。
+
+https://github.com/denyaho/Leetcode_repository/pull/3/changes
+リストを使う解法も参考になった。ただ自分で正解版を考えてみたが検出と接続を分けると少々冗長かなと
+
+step3
+一番意味が分かりやすかったstep2の2つ目のコードを採用した。
