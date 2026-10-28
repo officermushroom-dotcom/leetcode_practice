@@ -37,7 +37,7 @@ class Solution:
         previous_node = None
         node = head
         while node is not None:
-            differs_from_previous = node is None or node.val != previous_node.val
+            differs_from_previous = previous_node is None or node.val != previous_node.val
             differs_from_next = node.next is None or node.next.val != node.val
             if differs_from_previous is True and differs_from_next is True:
                 distinct_nodes.append(node)
